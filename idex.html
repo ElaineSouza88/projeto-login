@@ -17,6 +17,16 @@
                 <h1>Login</h1>
                 <p>Seja bem vindo (a)!</p>
                 <p>Insira seu login e senha.&#128272; </p>
+                    <form action="login.php" autocomplete="on" method="post">
+                        <p><label for="imail">E-mail:</label></p>
+                        <input type="text" name="email" id="iemail" required>
+                        <p><label for="isenha">Senha:</label></p>
+                        <input type="password" name="senha" id="isenha" required minlength="8">
+                        <p>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Limpar">
+                        </p>
+                    </form>
             </div>
         </section>
     </main>
