@@ -27,7 +27,7 @@ Desktop e telas grandes: 992 a 1200px */
         background-image: linear-gradient(to top, #45DBE0, #1C80EB, #1D22E1);
     }
     section#idlogin {
-        width: 950px;
+        width: 800px;
     }
 
     section#login > div#imagem {
