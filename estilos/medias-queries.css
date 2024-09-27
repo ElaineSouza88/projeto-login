@@ -22,14 +22,14 @@ Desktop e telas grandes: 992 a 1200px */
     }
 }
 
-@media screen and (min-width:900px) and (max-width: 1200px) {
+@media screen and (min-width:1200px) {
     body {
         background-image: linear-gradient(to top, #45DBE0, #1C80EB, #1D22E1);
     }
     section#idlogin {
-        width: 800px;
+        width: 100%vw;
     }
-
+  
     section#login > div#imagem {
         float: right;
         width: 100%;
